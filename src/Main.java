@@ -5,8 +5,10 @@ public class Main {
         Node second = new Node(2);
         Node third = new Node(3);
 
+
         list.head.next = second;
         second.next = third;
+        list.insertFirst(0);
         list.print();
 
 
